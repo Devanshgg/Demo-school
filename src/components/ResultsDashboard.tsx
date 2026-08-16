@@ -50,7 +50,7 @@ export default function ResultsDashboard() {
             Academic Performance Dashboard
           </h2>
           <p className="text-navy-800 font-light mt-4 text-base">
-            DPA maintains consistent growth across board examinations. Interact with the tabs below to explore historical metrics and multi-year trending.
+            Goshen School maintains consistent growth across board examinations. Interact with the tabs below to explore historical metrics and multi-year trending.
           </p>
         </div>
 

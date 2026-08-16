@@ -72,7 +72,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-serif font-bold text-navy-950 text-sm">Address</h4>
                   <p className="text-xs text-navy-800 font-light mt-1.5 leading-relaxed">
-                    Sector 12, Dwarka, Near Dwarka Metro Station, New Delhi - 110075
+                    Sitarganj Road, Nanakmatta, District Udham Singh Nagar, Uttarakhand, India - 262311
                   </p>
                 </div>
               </div>
@@ -82,8 +82,8 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-serif font-bold text-navy-950 text-sm">Phone</h4>
                   <p className="text-xs text-navy-800 font-light mt-1.5 leading-relaxed">
-                    +91 11 2808 4500 <br />
-                    +91 99990 12345
+                    +91-9837135315 <br />
+                    +91-9917922219
                   </p>
                 </div>
               </div>
@@ -93,8 +93,7 @@ export default function ContactSection() {
                 <div>
                   <h4 className="font-serif font-bold text-navy-950 text-sm">Email</h4>
                   <p className="text-xs text-navy-800 font-light mt-1.5 leading-relaxed break-all">
-                    admissions@dpa.edu.in <br />
-                    info@dpa.edu.in
+                    goshenschoolnanakmatta@gmail.com
                   </p>
                 </div>
               </div>
@@ -134,8 +133,8 @@ export default function ContactSection() {
               {/* Map detail strip */}
               <div className="relative z-10 p-4 bg-white/95 backdrop-blur-sm border-t border-navy-100 flex justify-between items-center">
                 <div>
-                  <h5 className="font-serif font-bold text-navy-950 text-xs">Delhi Public Academy</h5>
-                  <p className="text-[10px] text-navy-800 mt-0.5">Dwarka Sec-12, New Delhi</p>
+                  <h5 className="font-serif font-bold text-navy-950 text-xs">Goshen School</h5>
+                  <p className="text-[10px] text-navy-800 mt-0.5">Nanakmatta, Uttarakhand</p>
                 </div>
                 <a 
                   href="https://maps.google.com" 
@@ -179,9 +178,9 @@ export default function ContactSection() {
                   </button>
                 </motion.div>
               ) : (
-                <form onSubmit={handleSubmit} className="space-y-4">
+                <form onSubmit={handleSubmit} className="space-y-4" suppressHydrationWarning>
                   {/* Name field */}
-                  <div>
+                  <div suppressHydrationWarning>
                     <label htmlFor="parentName" className="block text-xs font-semibold text-navy-800 uppercase tracking-wide mb-1.5">
                       Parent's Name <span className="text-red-500">*</span>
                     </label>
@@ -193,12 +192,13 @@ export default function ContactSection() {
                       onChange={(e) => setFormData({ ...formData, parentName: e.target.value })}
                       placeholder="Enter parent's full name"
                       className="w-full bg-white border border-navy-200 focus:border-gold-500 rounded-lg px-4 py-2.5 text-sm text-navy-950 placeholder-navy-800/40 outline-none transition-colors"
+                      suppressHydrationWarning
                     />
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4" suppressHydrationWarning>
                     {/* Email field */}
-                    <div>
+                    <div suppressHydrationWarning>
                       <label htmlFor="email" className="block text-xs font-semibold text-navy-800 uppercase tracking-wide mb-1.5">
                         Email Address <span className="text-red-500">*</span>
                       </label>
@@ -210,11 +210,12 @@ export default function ContactSection() {
                         onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                         placeholder="parent@domain.com"
                         className="w-full bg-white border border-navy-200 focus:border-gold-500 rounded-lg px-4 py-2.5 text-sm text-navy-950 placeholder-navy-800/40 outline-none transition-colors"
+                        suppressHydrationWarning
                       />
                     </div>
 
                     {/* Phone field */}
-                    <div>
+                    <div suppressHydrationWarning>
                       <label htmlFor="phone" className="block text-xs font-semibold text-navy-800 uppercase tracking-wide mb-1.5">
                         Phone Number <span className="text-red-500">*</span>
                       </label>
@@ -226,12 +227,13 @@ export default function ContactSection() {
                         onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         placeholder="+91 XXXXX XXXXX"
                         className="w-full bg-white border border-navy-200 focus:border-gold-500 rounded-lg px-4 py-2.5 text-sm text-navy-950 placeholder-navy-800/40 outline-none transition-colors"
+                        suppressHydrationWarning
                       />
                     </div>
                   </div>
 
                   {/* Grade Interest Dropdown */}
-                  <div>
+                  <div suppressHydrationWarning>
                     <label htmlFor="gradeInterested" className="block text-xs font-semibold text-navy-800 uppercase tracking-wide mb-1.5">
                       Class / Grade Interested In
                     </label>
@@ -240,6 +242,7 @@ export default function ContactSection() {
                       value={formData.gradeInterested}
                       onChange={(e) => setFormData({ ...formData, gradeInterested: e.target.value })}
                       className="w-full bg-white border border-navy-200 focus:border-gold-500 rounded-lg px-4 py-2.5 text-sm text-navy-950 outline-none transition-colors"
+                      suppressHydrationWarning
                     >
                       <option value="">-- Choose Class --</option>
                       <option value="Nursery-KG">Nursery / Preparatory KG</option>
@@ -251,7 +254,7 @@ export default function ContactSection() {
                   </div>
 
                   {/* Message field */}
-                  <div>
+                  <div suppressHydrationWarning>
                     <label htmlFor="message" className="block text-xs font-semibold text-navy-800 uppercase tracking-wide mb-1.5">
                       Message / Enquiry Details
                     </label>
@@ -262,11 +265,12 @@ export default function ContactSection() {
                       onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       placeholder="Write your details here..."
                       className="w-full bg-white border border-navy-200 focus:border-gold-500 rounded-lg px-4 py-2.5 text-sm text-navy-950 placeholder-navy-800/40 outline-none transition-colors resize-none"
+                      suppressHydrationWarning
                     />
                   </div>
 
                   {/* Submit Button */}
-                  <div className="pt-2">
+                  <div className="pt-2" suppressHydrationWarning>
                     <button
                       type="submit"
                       disabled={status === "sending"}

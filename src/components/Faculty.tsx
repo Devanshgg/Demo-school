@@ -38,7 +38,7 @@ export default function Faculty() {
             Meet Our Dedicated Faculty
           </h2>
           <p className="text-navy-800 font-light mt-4 text-base">
-            DPA educators are leaders in academic pedagogy, steering scholars with empathy, intelligence, and professional experience.
+            Goshen School educators are leaders in academic pedagogy, steering scholars with empathy, intelligence, and professional experience.
           </p>
         </div>
 

@@ -214,8 +214,8 @@ export default function FloatingPitch() {
                       Enter your school's credentials below to receive a custom sandbox URL, documentation booklets, and a live pricing sheet.
                     </p>
 
-                    <form onSubmit={handlePitchSubmit} className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-end">
-                      <div>
+                    <form onSubmit={handlePitchSubmit} className="grid grid-cols-1 sm:grid-cols-3 gap-4 items-end" suppressHydrationWarning>
+                      <div suppressHydrationWarning>
                         <label className="block text-[10px] font-bold text-gold-400 uppercase tracking-wide mb-1.5">
                           School Name
                         </label>
@@ -226,9 +226,10 @@ export default function FloatingPitch() {
                           onChange={(e) => setPitchForm({ ...pitchForm, schoolName: e.target.value })}
                           placeholder="e.g. St. Xavier Academy"
                           className="w-full bg-navy-950/80 border border-navy-800 focus:border-gold-500 rounded px-3 py-2 text-xs text-white placeholder-navy-200/30 outline-none transition-colors"
+                          suppressHydrationWarning
                         />
                       </div>
-                      <div>
+                      <div suppressHydrationWarning>
                         <label className="block text-[10px] font-bold text-gold-400 uppercase tracking-wide mb-1.5">
                           Principal/Director Name
                         </label>
@@ -239,9 +240,10 @@ export default function FloatingPitch() {
                           onChange={(e) => setPitchForm({ ...pitchForm, directorName: e.target.value })}
                           placeholder="e.g. Dr. Robert"
                           className="w-full bg-navy-950/80 border border-navy-800 focus:border-gold-500 rounded px-3 py-2 text-xs text-white placeholder-navy-200/30 outline-none transition-colors"
+                          suppressHydrationWarning
                         />
                       </div>
-                      <div>
+                      <div suppressHydrationWarning>
                         <button
                           type="submit"
                           className="w-full flex items-center justify-center gap-1.5 px-4 py-2.5 bg-gradient-to-r from-gold-400 to-gold-500 hover:from-gold-500 hover:to-gold-600 text-navy-950 rounded font-bold text-xs shadow-md transition-all cursor-pointer"

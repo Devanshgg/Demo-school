@@ -27,7 +27,7 @@ export const toppersData: Topper[] = [
     percentage: 97.8,
     rank: 2,
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=400",
-    quote: "DPA's smart learning classrooms and teachers' active guidance made learning extremely engaging and structured.",
+    quote: "Goshen School's smart learning classrooms and teachers' active guidance made learning extremely engaging and structured.",
   },
   {
     id: "3",

@@ -68,7 +68,7 @@ export default function WhyChooseUs() {
             <span className="w-6 h-[2px] bg-gold-500" /> Core Values <span className="w-6 h-[2px] bg-gold-500" />
           </span>
           <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-bold text-navy-950 mt-3 leading-tight">
-            Why Delhi Public Academy?
+            Why Goshen School?
           </h2>
           <p className="text-navy-800 font-light mt-4 text-base sm:text-lg">
             We provide a robust learning ecology built upon structural rigour, digital infrastructure, and a focus on crafting high-performing scholars.
