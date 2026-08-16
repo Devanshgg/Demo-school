@@ -30,7 +30,7 @@ export const noticesData: Notice[] = [
     id: "3",
     title: "Upcoming Inter-School Sports Competition",
     date: "Jul 28, 2026",
-    description: "DPA will host the District Basketball and Football Championship starting next Monday. Registrations for the school team selections close tomorrow.",
+    description: "Goshen School will host the District Basketball and Football Championship starting next Monday. Registrations for the school team selections close tomorrow.",
     category: "Activity",
   },
   {

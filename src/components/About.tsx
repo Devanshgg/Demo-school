@@ -63,15 +63,15 @@ export default function About() {
             <div className="relative z-10 rounded-2xl overflow-hidden border-2 border-gold-500/20 shadow-[0_20px_50px_rgba(11,25,44,0.1)] group">
               <img
                 src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80&w=800"
-                alt="Delhi Public Academy Campus"
+                alt="Goshen School Campus"
                 className="w-full h-[400px] object-cover group-hover:scale-105 transition-transform duration-700"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 to-transparent pointer-events-none" />
               
               {/* Overlaid Badging */}
               <div className="absolute bottom-6 left-6 right-6 p-6 rounded-xl glass-card-dark text-white border border-gold-500/30">
-                <h4 className="font-serif text-gold-400 text-lg font-bold">Delhi Public Academy</h4>
-                <p className="text-xs text-navy-200 mt-1">Established in 2001 • Affiliated with Central Board (CBSE)</p>
+                <h4 className="font-serif text-gold-400 text-lg font-bold">Goshen School</h4>
+                <p className="text-xs text-navy-200 mt-1">Established in 1999 • Affiliated with Central Board of Secondary Education (CBSE), Affiliation No. 3530276</p>
               </div>
             </div>
 
@@ -95,11 +95,11 @@ export default function About() {
             </h2>
 
             <p className="text-navy-800 leading-relaxed font-light">
-              At Delhi Public Academy, we believe education is not merely the acquisition of knowledge but a lifelong journey of character synthesis, intellectual development, and discovery. Over the past 25 years, our institutions have cultivated a vibrant ecosystem where traditional values merge seamlessly with cutting-edge academic innovation.
+              Goshen School is committed to providing quality education with an emphasis on the personality development of the student.
             </p>
 
             <p className="text-navy-800 leading-relaxed font-light">
-              Our campus fosters discipline, critical inquiry, and digital literacy. We offer comprehensive academic and co-curricular programs spanning advanced sciences, humanities, competitive sports training, and creative arts, ensuring that every student discovers their unique voice and learns to lead with confidence.
+              We aim to provide value-based quality education and opportunities to our students so that they turn into responsible, competent, confident, and holistic youths.
             </p>
 
             {/* Micro Feature Bullet Grid */}
@@ -143,14 +143,14 @@ export default function About() {
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <StatCounter value={2500} suffix="+" />
+            <StatCounter value={900} suffix="+" />
             <span className="text-xs sm:text-sm font-semibold tracking-wider text-gold-600 uppercase mt-2">
               Students Enrolled
             </span>
           </div>
 
           <div className="flex flex-col items-center text-center">
-            <StatCounter value={150} suffix="+" />
+            <StatCounter value={45} suffix="+" />
             <span className="text-xs sm:text-sm font-semibold tracking-wider text-gold-600 uppercase mt-2">
               Faculty Members
             </span>

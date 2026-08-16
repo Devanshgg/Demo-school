@@ -81,9 +81,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="font-serif text-5xl sm:text-7xl lg:text-8xl font-bold tracking-tight text-white leading-tight mb-4"
         >
-          Delhi Public <br className="hidden sm:inline" />
+          Goshen <br className="hidden sm:inline" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-gold-400 via-gold-300 to-gold-500 text-stroke-gold">
-            Academy
+            School
           </span>
         </motion.h1>
 
@@ -94,7 +94,7 @@ export default function Hero() {
           transition={{ duration: 1, delay: 1 }}
           className="font-serif text-lg sm:text-2xl lg:text-3xl text-gold-400 tracking-wide font-medium italic mb-6"
         >
-          "Where Excellence Meets Education"
+          "Quality Education, Personality Development"
         </motion.p>
 
         {/* Description */}
@@ -104,7 +104,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1.2 }}
           className="max-w-2xl mx-auto text-base sm:text-lg text-navy-200 leading-relaxed mb-10 font-light"
         >
-          Empowering young minds with knowledge, character, and confidence. DPA provides a state-of-the-art learning ecology that molds global citizens and leaders of tomorrow.
+          Empowering young minds with knowledge, character, and confidence. Goshen School provides a state-of-the-art learning ecology that molds global citizens and leaders of tomorrow.
         </motion.p>
 
         {/* Interactive Call to Actions */}

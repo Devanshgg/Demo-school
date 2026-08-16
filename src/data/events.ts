@@ -16,7 +16,7 @@ export const eventsData: SchoolEvent[] = [
     date: "18th Dec 2025",
     month: "DEC",
     day: "18",
-    description: "A grand showcase of talent, drama, music, and dance highlighting DPA's rich diversity and artistic achievement.",
+    description: "A grand showcase of talent, drama, music, and dance highlighting Goshen School's rich diversity and artistic achievement.",
     image: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&q=80&w=600",
     category: "Cultural",
   },

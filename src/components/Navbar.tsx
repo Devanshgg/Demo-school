@@ -46,23 +46,19 @@ export default function Navbar() {
           <div className="flex items-center justify-between">
             {/* Logo Crest & Name */}
             <a href="#home" className="flex items-center gap-3 group">
-              <div className="relative flex items-center justify-center w-12 h-12 bg-gradient-to-br from-navy-800 to-navy-950 border border-gold-500 rounded-lg shadow-[0_0_15px_rgba(212,175,55,0.2)] group-hover:scale-105 transition-all">
-                {/* SVG Crest Emblem */}
-                <svg
-                  viewBox="0 0 100 100"
-                  className="w-8 h-8 fill-none stroke-gold-400 stroke-2"
-                >
-                  <path d="M50,15 L80,25 C80,55 50,85 50,85 C50,85 20,55 20,25 L50,15 Z" />
-                  <path d="M35,45 Q50,38 65,45 M35,53 Q50,46 65,53 M50,32 L50,70" strokeWidth="1.5" />
-                  <circle cx="50" cy="30" r="3" fill="#D4AF37" />
-                </svg>
+              <div className="relative flex items-center justify-center w-12 h-12 rounded-full overflow-hidden bg-white shadow-[0_0_15px_rgba(212,175,55,0.2)] group-hover:scale-105 transition-all p-0.5 border border-gold-500/40">
+                <img
+                  src="/goshen-logo.png"
+                  alt="Goshen School Logo"
+                  className="w-full h-full object-contain rounded-full"
+                />
               </div>
               <div className="flex flex-col">
                 <span className="font-serif text-lg md:text-xl font-bold tracking-wide text-white leading-none group-hover:text-gold-400 transition-colors">
-                  DELHI PUBLIC
+                  GOSHEN
                 </span>
                 <span className="font-sans text-xs font-semibold tracking-[0.2em] text-gold-400 leading-none mt-1">
-                  ACADEMY
+                  SCHOOL
                 </span>
               </div>
             </a>
